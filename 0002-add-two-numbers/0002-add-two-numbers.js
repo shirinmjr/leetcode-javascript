@@ -15,7 +15,7 @@ var addTwoNumbers = function (l1, l2) {
     ///set the current to result which is the new empty link, 
     let current = result; //current keeps the track of current linked list
     let carry = 0;
-    while (l1 || l2) {
+    while (l1 !== null || l2 !== null) {
         let sum = carry;
         if (l1) {
             sum += l1.val;
