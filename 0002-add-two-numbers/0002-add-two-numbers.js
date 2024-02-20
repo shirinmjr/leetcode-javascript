@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-    const result = new ListNode();//create the first result link
+    const result = new ListNode(0);//create the first result link
     ///set the current to result which is the new empty link, 
     let current = result; //current keeps the track of current linked list
     let carry = 0;
