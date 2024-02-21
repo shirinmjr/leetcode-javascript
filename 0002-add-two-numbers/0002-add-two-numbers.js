@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-    const result = new ListNode(0);//create the first result link
+    const result = new ListNode(0);//reuslt object from ListNode holds on to the answer
     ///set the current to result which is the new empty link, 
     let current = result; //current keeps the track of current linked list
     let carry = 0;
@@ -26,10 +26,8 @@ var addTwoNumbers = function (l1, l2) {
             l2 = l2.next;
         }
         carry = Math.floor(sum / 10)
-        current.next = new ListNode(sum % 10)
+        current.next = new ListNode(sum % 10); //shifting the current one digit further
         current = current.next;
-
-
     }
     if (carry > 0) {
         current.next = new ListNode(carry)
