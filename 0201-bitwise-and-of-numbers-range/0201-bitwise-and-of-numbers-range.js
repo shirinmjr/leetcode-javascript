@@ -1,21 +1,21 @@
 var rangeBitwiseAnd = function (left, right) {
     let shift = 0;
     // console.log("start", left, right);
-    console.log("start", "left: ", left.toString(2), "right: ", right.toString(2));
+   // console.log("start", "left: ", left.toString(2), "right: ", right.toString(2));
 
     // Find the common bits in the binary representations of left and right
     while (left < right) {
-console.log("while left: ",left,"right",right)
+//console.log("while left: ",left,"right",right)
         left >>= 1;
         right >>= 1;
-        console.log("left: ", left.toString(2), "right: ", right.toString(2));
+       // console.log("left: ", left.toString(2), "right: ", right.toString(2));
         //console.log(left, right);
         shift++;
         
     }
     // Shift back the common bits to the original position
-    console.log("shift", shift);
-    console.log(left << shift);
+    //console.log("shift", shift);
+    //console.log(left << shift);
     return left << shift;
 };
 
