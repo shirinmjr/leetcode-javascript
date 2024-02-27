@@ -15,16 +15,16 @@ var diameterOfBinaryTree = function (root) {
 
     const depth = function (node) {
         if (!node) return 0;
-        console.log("left", node.left, "right", node.right, "node", node.val)
+        //console.log("left", node.left, "right", node.right, "node", node.val)
 
         const leftDepth = depth(node.left);
         const rightDepth = depth(node.right);
 
-        console.log("leftDepth", leftDepth, "rightDepth", rightDepth, "node", node.val)
+        //console.log("leftDepth", leftDepth, "rightDepth", rightDepth, "node", node.val)
 
         // Update diameter if necessary
         diameter = Math.max(diameter, leftDepth + rightDepth);
-        console.log("diameter", diameter)
+        //console.log("diameter", diameter)
         // Return depth of current node
         return Math.max(leftDepth, rightDepth) + 1;
     };
