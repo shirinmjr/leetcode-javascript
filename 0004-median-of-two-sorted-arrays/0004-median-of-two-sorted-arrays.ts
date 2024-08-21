@@ -20,8 +20,6 @@ console.log(nums)
 
     else {
 
-  console.log(nums[(nums.length /2)-1],nums[(nums.length /2)])
-
         return  (nums[(nums.length /2)-1] + nums[(nums.length /2) ])/2;
     }
 };
