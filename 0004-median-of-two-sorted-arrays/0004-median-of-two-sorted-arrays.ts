@@ -20,8 +20,6 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
     
     if (nums.length % 2 == 1) return nums[Math.floor(nums.length / 2)];
 
-    else {
-
-        return (nums[(nums.length / 2) - 1] + nums[(nums.length / 2)]) / 2;
-    }
+    else return (nums[(nums.length / 2) - 1] + nums[(nums.length / 2)]) / 2;
+    
 };
