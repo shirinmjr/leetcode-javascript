@@ -6,15 +6,13 @@ type ToBeOrNotToBe = {
 function expect(val: any): ToBeOrNotToBe {
     return {
         toBe: function (val2: any) {
-            if (val === val2) {
-                return true
-            } else { throw new Error("Not Equal") }
+            if (val === val2) return true
+            throw new Error("Not Equal")
         },
         notToBe: function (val2: any) {
-            if (val !== val2) {
-                return true
-            }
-            else { throw new Error("Equal") }
+            if (val !== val2) return true
+
+            throw new Error("Equal")
         }
     }
 };
