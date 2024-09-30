@@ -1,0 +1,7 @@
+### SET
+
+```
+const mySet = new Set();
+```
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/Set
