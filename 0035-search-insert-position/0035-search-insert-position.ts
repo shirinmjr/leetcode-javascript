@@ -3,8 +3,6 @@ function searchInsert(nums: number[], target: number): number {
  let i = nums.findIndex(n => n >= target);
     return i > -1 ? i : nums.length;
 
-
-
     /*
     for (let i = 0; i < nums.length; i++) {
     
