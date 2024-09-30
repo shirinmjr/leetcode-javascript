@@ -11,7 +11,6 @@ function expect(val: any): ToBeOrNotToBe {
         },
         notToBe: function (val2: any) {
             if (val !== val2) return true
-
             throw new Error("Equal")
         }
     }
