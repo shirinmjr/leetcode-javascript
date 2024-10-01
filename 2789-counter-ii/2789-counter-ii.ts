@@ -4,18 +4,17 @@ type Counter = {
     reset: () => number,
 }
 
-function createCounter(init: number): Counter {//5
+function createCounter(init: number): Counter {
     let orginalNum = init
     return {
-        increment: () =>  ++init,
+        increment: () => ++init,
 
-        decrement: () =>  --init,
+        decrement: () => --init,
         reset: () => {
             init = orginalNum
             return init
         }
-        }
-    
+    }
 };
 
 /**
