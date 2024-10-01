@@ -7,17 +7,15 @@ type Counter = {
 function createCounter(init: number): Counter {//5
     let orginalNum = init
     return {
-        increment: () => {//6
-            return ++init
-        },
-        decrement: () => {//4
-            return --init
-        },
-        reset: () => {//5
+        increment: () =>  ++init,
+
+        decrement: () =>  --init,
+        reset: () => {
             init = orginalNum
             return init
         }
-    }
+        }
+    
 };
 
 /**
