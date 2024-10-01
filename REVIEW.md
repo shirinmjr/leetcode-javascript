@@ -47,6 +47,14 @@ function filter(arr: number[], fn: Fn): number[] {
 };
 ```
 ### Array Reduce Transformation
+The reduce method's callback function should receive two arguments: the accumulator (result from previous calculations) and the current value from the array.
 ```TS
+type Fn = (accum: number, curr: number) => number
+
+function reduce(nums: number[], fn: Fn, init: number): number {
+  return nums.reduce((accum, curr) => fn(accum, curr), init);
+
+};
 ```
+https://github.com/shirinmjr/leetcode-javascript/blob/main/2761-array-reduce-transformation/2761-array-reduce-transformation.ts
 
