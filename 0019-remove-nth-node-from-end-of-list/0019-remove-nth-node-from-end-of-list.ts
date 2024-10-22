@@ -19,18 +19,16 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
         if (fast === null) return null; // Handle cases where n is larger than the length
         fast = fast.next;
     }
+    // if n is equal to the length of the list it is a shift - case when we need to remove the head
+    // meaning after shifting the fast pinter fast.next is null =>fast is null, while loop not going to run
     // Move both slow and fast until fast reaches the end
     while (fast !== null) {
         temp = slow;
         slow = slow.next;
         fast = fast.next;
     }
-if(temp){
-    temp.next=slow.next
-}else{
-    head=slow.next
-}
-    // Remove the nth node from the end
-   
+    // Remove the nth node from the end  
+    temp ? temp.next = slow.next : head = slow.next
+
     return head
 };
