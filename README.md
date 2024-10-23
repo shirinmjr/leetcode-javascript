@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/shirinmjr/leetcode-javascript/tree/master/0027-remove-element) |
+| [0086-partition-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
 | [0908-middle-of-the-linked-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0908-middle-of-the-linked-list) |
 ## Math
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0086-partition-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
 | [0908-middle-of-the-linked-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0908-middle-of-the-linked-list) |
 ## Hash Table
