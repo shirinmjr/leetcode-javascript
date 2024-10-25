@@ -16,6 +16,7 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
     let previous = null;
 
     while (current !== null) {
+        //if value exists it's a duplicate so we skip by moving precious pointer to the next of the current
         if (values.has(current.val)) {
             previous.next = current.next
         } else {
