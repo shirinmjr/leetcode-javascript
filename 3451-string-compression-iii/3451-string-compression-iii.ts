@@ -8,6 +8,7 @@ function compressedString(word: string): string {
         let char: string = word[i]
         let k: number = i + 9;
         let length: number = 0;
+
         while (i < n && i < k && word[i] === char) {
             length +=1
             i +=1
