@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0664-strange-printer](https://github.com/shirinmjr/leetcode-javascript/tree/master/0664-strange-printer) |
+| [3451-string-compression-iii](https://github.com/shirinmjr/leetcode-javascript/tree/master/3451-string-compression-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
