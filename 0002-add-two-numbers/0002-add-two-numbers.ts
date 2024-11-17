@@ -9,7 +9,6 @@
  *     }
  * }
  */
-
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
 
     let dummyNode = new ListNode(0);
@@ -29,35 +28,5 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
         if (l1) l1 = l1.next
         if (l2) l2 = l2.next
     }
-
     return dummyNode.next
-
 };
-
-
-/** JAVASCRIPT ***
-var addTwoNumbers = function (l1, l2) {
-    const result = new ListNode(0);//reuslt object from ListNode holds on to the answer
-    ///set the current to result which is the new empty link, 
-    let current = result; //current keeps the track of current linked list
-    let carry = 0;
-    while (l1  || l2) {
-        let sum = carry;
-        if (l1 ) {
-            sum += l1.val;
-            l1 = l1.next;
-        }
-        if (l2) {
-            sum += l2.val
-            l2 = l2.next;
-        }
-        carry = Math.floor(sum / 10)
-        current.next = new ListNode(sum % 10); //shifting the current one digit further
-        current = current.next;
-    }
-    if (carry > 0) {
-        current.next = new ListNode(carry)
-    }
-    return result.next;
-};
- */
