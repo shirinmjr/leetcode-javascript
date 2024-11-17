@@ -49,9 +49,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0908-middle-of-the-linked-list) |
 ## Hash Table
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
