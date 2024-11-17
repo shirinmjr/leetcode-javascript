@@ -1,4 +1,3 @@
-
 function twoSum(nums: number[], target: number): number[] {
     const map: { [key: number]: number } = {}; // Hash map to store numbers and their indices
 
