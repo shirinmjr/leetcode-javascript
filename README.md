@@ -42,10 +42,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shirinmjr/leetcode-javascript/tree/master/0002-add-two-numbers) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shirinmjr/leetcode-javascript/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0086-partition-list) |
@@ -66,4 +68,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/shirinmjr/leetcode-javascript/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
