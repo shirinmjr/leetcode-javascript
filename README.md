@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
 | [1755-defuse-the-bomb](https://github.com/shirinmjr/leetcode-javascript/tree/master/1755-defuse-the-bomb) |
 ## Binary Search
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/shirinmjr/leetcode-javascript/tree/master/0004-median-of-two-sorted-arrays) |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
 ## Design
 |  |
@@ -95,5 +98,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
