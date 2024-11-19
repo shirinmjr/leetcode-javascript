@@ -1,8 +1,9 @@
 function topKFrequent(nums: number[], k: number): number[] {
-   return Array.from(getHashmap(nums))
+    let reusltArray = Array.from(getHashmap(nums))
     .sort((a, b) => b[1] - a[1])
     .slice(0, k)
     .map(([num]) => num);
+    return reusltArray
 };
 
 function getHashmap(nums: number[]): Map<number, number> {
