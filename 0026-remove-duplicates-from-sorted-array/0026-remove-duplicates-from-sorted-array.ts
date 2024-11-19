@@ -9,10 +9,24 @@ function removeDuplicates(nums: number[]): number {
         }
     }
     return uniqueIndex;
-/* 
-    let temp = [...new Set(nums)];
-    nums.length = 0;
-    nums.push(...temp);
-    return nums.length;
-*/
+    /* 
+        let temp = [...new Set(nums)];
+        nums.length = 0;
+        nums.push(...temp);
+        return nums.length;
+    */
 };
+
+// function removeDuplicates(nums) {
+//     const mySet = new Set()
+
+//     for (let i = 0; i < nums.length; i++) {
+//         if (!mySet.has(nums[i])) {
+//             mySet.add(nums[i])
+//         }
+//     }
+//     const result = Array.from(mySet)
+
+//     return result.length
+
+// }
