@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/shirinmjr/leetcode-javascript/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/shirinmjr/leetcode-javascript/tree/master/0035-search-insert-position) |
+| [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0344-reverse-string) |
 | [0664-strange-printer](https://github.com/shirinmjr/leetcode-javascript/tree/master/0664-strange-printer) |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shirinmjr/leetcode-javascript/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
@@ -89,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
