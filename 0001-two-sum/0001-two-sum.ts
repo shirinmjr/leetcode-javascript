@@ -1,7 +1,7 @@
 function twoSum(nums: number[], target: number): number[] {
 
-    const map: { [key: number]: number } = {}; // Hash map to store numbers and their indices
-    // const myMap = new Map()
+    //const map: { [key: number]: number } = {}; // Hash map to store numbers and their indices
+     const map = new Map()
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i]; // Compute complement
 
