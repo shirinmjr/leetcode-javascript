@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/shirinmjr/leetcode-javascript/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
 | [1755-defuse-the-bomb](https://github.com/shirinmjr/leetcode-javascript/tree/master/1755-defuse-the-bomb) |
@@ -123,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/shirinmjr/leetcode-javascript/tree/master/0535-encode-and-decode-tinyurl) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/shirinmjr/leetcode-javascript/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
