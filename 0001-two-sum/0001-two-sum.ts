@@ -1,5 +1,16 @@
 function twoSum(nums: number[], target: number): number[] {
-    const map: { [key: number]: number } = {}; // Hash map to store numbers and their indices
+    const myMap = new Map()
+    for (let i = 0; i < nums.length; i++) {
+        let complement = target - nums[i];
+        if (myMap.hasOwnProperty(complement)) {
+            return [myMap[complement], i]
+        }
+        myMap[nums[i]] = i
+    }
+};
+
+/*
+ const map: { [key: number]: number } = {}; // Hash map to store numbers and their indices
 
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i]; // Compute complement
@@ -13,7 +24,7 @@ function twoSum(nums: number[], target: number): number[] {
         map[nums[i]] = i;
     }
     throw new Error("No solution found");
-};
+    */
 
 /** JavaScript *********
 function twoSum(nums, target) {
