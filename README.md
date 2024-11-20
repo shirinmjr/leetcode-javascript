@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0344-reverse-string) |
@@ -128,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/shirinmjr/leetcode-javascript/tree/master/0238-product-of-array-except-self) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
