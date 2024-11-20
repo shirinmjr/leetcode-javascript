@@ -2,7 +2,7 @@ function isValidSudoku(board: string[][]): boolean {
     const row: Set<string>[] = Array.from({ length: 9 }, () => new Set())
     const col: Set<string>[] = Array.from({ length: 9 }, () => new Set())
     const box: Set<string>[] = Array.from({ length: 9 }, () => new Set())
-    let count = 1
+    //let count = 1
     for (let i = 0; i < 9; i++) {
         for (let j = 0; j < 9; j++) {
             const value = board[i][j]
