@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/shirinmjr/leetcode-javascript/tree/master/0155-min-stack) |
 | [0535-encode-and-decode-tinyurl](https://github.com/shirinmjr/leetcode-javascript/tree/master/0535-encode-and-decode-tinyurl) |
 ## Doubly-Linked List
 |  |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/shirinmjr/leetcode-javascript/tree/master/0155-min-stack) |
 ## Matrix
 |  |
 | ------- |
