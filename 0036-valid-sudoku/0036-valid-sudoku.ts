@@ -1,39 +1,32 @@
 function isValidSudoku(board: string[][]): boolean {
-    const mySet = new Set()
-    const rows = board
+    // Initialize sets for rows, columns, and 3x3 sub-boxes
+    const rows: Set<string>[] = Array.from({ length: 9 }, () => new Set());
+    const cols: Set<string>[] = Array.from({ length: 9 }, () => new Set());
+    const boxes: Set<string>[] = Array.from({ length: 9 }, () => new Set());
 
-    //check rows
-    for (const row of rows) {
-        const filteredRow = row.filter((num: string) => num !== '.')
-        if (new Set(filteredRow).size !== filteredRow.length) return false
-    }
-
+    // Iterate over each cell of the board
     for (let i = 0; i < 9; i++) {
-        let col = []
         for (let j = 0; j < 9; j++) {
-            if (board[j][i] !== '.') {
-                col.push(board[j][i])
-            }
-        }
-        console.log(col)
-        if (new Set(col).size !== col.length) return false
-    }
+            const value = board[i][j];
 
-    // Check 3x3 sub-boxes
-    for (let boxRow = 0; boxRow < 3; boxRow++) {
-        for (let boxCol = 0; boxCol < 3; boxCol++) {
-            const subBox: string[] = []; // Collect the sub-box values
-            for (let row = boxRow * 3; row < boxRow * 3 + 3; row++) {
-                for (let col = boxCol * 3; col < boxCol * 3 + 3; col++) {
-                    if (board[row][col] !== '.') {
-                        subBox.push(board[row][col]);
-                    }
-                }
+            // Skip empty cells
+            if (value === '.') continue;
+
+            // Calculate the index of the 3x3 sub-box
+            const boxIndex = Math.floor(i / 3) * 3 + Math.floor(j / 3);
+
+            // Check if the value already exists in the same row, column, or sub-box
+            if (rows[i].has(value) || cols[j].has(value) || boxes[boxIndex].has(value)) {
+                return false;
             }
-            if (new Set(subBox).size !== subBox.length) return false; // Check for duplicates
+
+            // Add the value to the respective row, column, and box sets
+            rows[i].add(value);
+            cols[j].add(value);
+            boxes[boxIndex].add(value);
         }
     }
 
-    return true
-
+    // If no duplicates are found, the board is valid
+    return true;
 }
