@@ -26,7 +26,6 @@ class MinStack {
             throw new Error("Stack is empty");
         }
         return this.stack[this.stack.length - 1].min
-
     }
 }
 
