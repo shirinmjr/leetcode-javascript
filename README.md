@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/shirinmjr/leetcode-javascript/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/shirinmjr/leetcode-javascript/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/shirinmjr/leetcode-javascript/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shirinmjr/leetcode-javascript/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/shirinmjr/leetcode-javascript/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
@@ -133,4 +135,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0020-valid-parentheses) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/shirinmjr/leetcode-javascript/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
