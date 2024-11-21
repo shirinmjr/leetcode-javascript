@@ -1,15 +1,41 @@
 function decodeCiphertext(encodedText: string, rows: number): string {
-    const m = rows
-    const n = encodedText.length / m
-    const mat = [...Array(m)].map(() => [])
-    for (let i=0; i<encodedText.length; i+=1) {
-        mat[Math.floor(i / n)].push(encodedText[i])
-    }
-    let text = ""
-    for (let x=0; x<=mat[0].length; x+=1) {
-        for (let i=0; i<Math.min(m, n-x); i+=1) {
-            text += mat[i][x+i]
+    if (rows === 1) return encodedText;
+    let cols = Math.ceil(encodedText.length / rows)
+
+    const matrix: string[][] = [];
+    let result = "";
+
+    let index = 0
+    for (let i = 0; i < rows; i++) {
+        const row: string[] = [];
+        for (let j = 0; j < cols; j++) {
+
+            row.push(encodedText.charAt(index) || ' ')
+            index++
         }
+        matrix.push(row)
     }
-    return text.trimEnd()
+    console.log(matrix)
+
+
+
+    for (let col = 0; col < cols; col++) {
+        let temp = col
+        for (let row = 0; row < rows && temp < cols; row++) {
+
+            // if (matrix[row][temp] !== ' ') {
+                result += matrix[row][temp]
+          //  }
+            temp++
+        }
+
+
+    }
+
+    return result.trimRight();
 };
+
+    // for (const char of encodedText) {
+    //     console.log(`${char}-`)
+    // }
+    // console.log(encodedText.length)
