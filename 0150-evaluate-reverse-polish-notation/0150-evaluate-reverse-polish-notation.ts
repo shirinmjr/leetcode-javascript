@@ -4,7 +4,7 @@ function evalRPN(tokens: string[]): number {
 
     for (const token of tokens) {
         //console.log(stack)
-        if (!isNaN(Number(token))) { //if (!operations.has(token)) { 
+       if (!operations.has(token)) { // if (!isNaN(Number(token))) {
             //if token is a number
             stack.push(Number(token))
         } else {
