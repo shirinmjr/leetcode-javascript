@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0344-reverse-string) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0022-generate-parentheses) |
 | [0664-strange-printer](https://github.com/shirinmjr/leetcode-javascript/tree/master/0664-strange-printer) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
 ## Two Pointers
@@ -150,4 +152,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shirinmjr/leetcode-javascript/tree/master/0128-longest-consecutive-sequence) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
