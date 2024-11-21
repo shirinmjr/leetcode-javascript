@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/shirinmjr/leetcode-javascript/tree/master/0535-encode-and-decode-tinyurl) |
 | [0664-strange-printer](https://github.com/shirinmjr/leetcode-javascript/tree/master/0664-strange-printer) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
+| [2197-decode-the-slanted-ciphertext](https://github.com/shirinmjr/leetcode-javascript/tree/master/2197-decode-the-slanted-ciphertext) |
 | [3451-string-compression-iii](https://github.com/shirinmjr/leetcode-javascript/tree/master/3451-string-compression-iii) |
 ## Dynamic Programming
 |  |
@@ -162,4 +163,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/shirinmjr/leetcode-javascript/tree/master/0739-daily-temperatures) |
+## Simulation
+|  |
+| ------- |
+| [2197-decode-the-slanted-ciphertext](https://github.com/shirinmjr/leetcode-javascript/tree/master/2197-decode-the-slanted-ciphertext) |
 <!---LeetCode Topics End-->
