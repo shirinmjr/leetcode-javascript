@@ -1,13 +1,32 @@
 function removeDuplicates(nums: number[]): number {
-    if (nums.length === 0) return 0;
-    let unqueIndex = 1
-    for (let i = 0; i < nums.length - 1; i++) {
-        if (nums[i] !== nums[i + 1]) {
-            nums[unqueIndex] = nums[i + 1]
-            unqueIndex++
+    if (nums.length === 0) return 0;//if nums is empty return 0
 
+    let uniqueIndex = 1;//a placeholder showing where the next uniqueIndex goes
+    for (let i = 0; i < nums.length - 1; i++) {
+        if (nums[i] !== nums[i + 1]) {//since it's sorted we check agains the next item and if not equal it means it is unique
+            nums[uniqueIndex] = nums[i + 1];//rewrite the original array, shift the array elements to where the next unique item should go
+            uniqueIndex++;
         }
     }
-    return unqueIndex
+    return uniqueIndex;
+    /* 
+        let temp = [...new Set(nums)];
+        nums.length = 0;
+        nums.push(...temp);
+        return nums.length;
+    */
+};
 
-}
+// function removeDuplicates(nums) {
+//     const mySet = new Set()
+
+//     for (let i = 0; i < nums.length; i++) {
+//         if (!mySet.has(nums[i])) {
+//             mySet.add(nums[i])
+//         }
+//     }
+//     const result = Array.from(mySet)
+
+//     return result.length
+
+// }
