@@ -10,7 +10,7 @@ function moveZeroes(nums: number[]): void {
             zeroIndex++
         }
     }
-    console.log(nums)
+  
    for (let i = zeroIndex; i < nums.length; i++) {
         nums[i] = 0; // Fill remaining positions with zeros
     }
