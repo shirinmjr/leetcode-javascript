@@ -1,7 +1,6 @@
 function singleNumber(nums: number[]): number {
-    //We need a map
     const map = new Map<number, number>()
-
+    
     for (const num of nums) {
         if (map.has(num)) {
             map.set(num, map.get(num)! + 1);
@@ -14,9 +13,7 @@ function singleNumber(nums: number[]): number {
             return key;
         }
     }
-
     return -1;
-
 };
 /*
 function singleNumber(nums: number[]): number {
