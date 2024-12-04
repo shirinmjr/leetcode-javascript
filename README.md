@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shirinmjr/leetcode-javascript/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/shirinmjr/leetcode-javascript/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shirinmjr/leetcode-javascript/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/shirinmjr/leetcode-javascript/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/shirinmjr/leetcode-javascript/tree/master/0027-remove-element) |
 | [0086-partition-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
+| [0189-rotate-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0344-reverse-string) |
 | [0908-middle-of-the-linked-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/shirinmjr/leetcode-javascript/tree/master/0002-add-two-numbers) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shirinmjr/leetcode-javascript/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0189-rotate-array) |
 ## Linked List
 |  |
 | ------- |
