@@ -6,12 +6,12 @@ function twoSum(nums: number[], target: number): number[] {
         const complement = target - nums[i]; // Compute complement
 
         // Check if the complement exists in the hash map
-        if (map.has(complement)) {
-            return [map.get(complement), i]; // Return the indices
+        if (map.hasOwnProperty(complement)) {
+            return [map[complement], i]; // Return the indices
         }
 
         // Add current number to the hash map
-        map.set(nums[i] , i);
+        map[nums[i]]=  i;
     }
     throw new Error("No solution found");
 }
