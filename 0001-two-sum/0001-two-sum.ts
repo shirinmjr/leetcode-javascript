@@ -1,17 +1,17 @@
 function twoSum(nums: number[], target: number): number[] {
 
     //const map: { [key: number]: number } = {}; // Hash map to store numbers and their indices
-     const map = new Map()
+     const map = new Map<number,number>()
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i]; // Compute complement
 
         // Check if the complement exists in the hash map
-        if (map.hasOwnProperty(complement)) {
-            return [map[complement], i]; // Return the indices
+        if (map.has(complement)) {
+            return [map.get(complement), i]; // Return the indices
         }
 
         // Add current number to the hash map
-        map[nums[i]] = i;
+        map.set(nums[i] , i);
     }
     throw new Error("No solution found");
 }
