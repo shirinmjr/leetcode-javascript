@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0344-reverse-string) |
 | [0535-encode-and-decode-tinyurl](https://github.com/shirinmjr/leetcode-javascript/tree/master/0535-encode-and-decode-tinyurl) |
 | [0664-strange-printer](https://github.com/shirinmjr/leetcode-javascript/tree/master/0664-strange-printer) |
+| [0812-rotate-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0812-rotate-string) |
 | [1129-longest-string-chain](https://github.com/shirinmjr/leetcode-javascript/tree/master/1129-longest-string-chain) |
 | [2197-decode-the-slanted-ciphertext](https://github.com/shirinmjr/leetcode-javascript/tree/master/2197-decode-the-slanted-ciphertext) |
 | [3451-string-compression-iii](https://github.com/shirinmjr/leetcode-javascript/tree/master/3451-string-compression-iii) |
@@ -178,4 +179,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shirinmjr/leetcode-javascript/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
