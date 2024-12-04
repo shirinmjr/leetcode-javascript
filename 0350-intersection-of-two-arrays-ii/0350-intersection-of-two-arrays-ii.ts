@@ -5,7 +5,6 @@ function intersect(nums1: number[], nums2: number[]): number[] {
     for (const num of nums1) {
         map.set(num, (map.get(num) || 0) + 1);
     }
-
     // Find intersections with nums2
     for (const num of nums2) {
         if (map.has(num) && map.get(num)! > 0) {
