@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shirinmjr/leetcode-javascript/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shirinmjr/leetcode-javascript/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/shirinmjr/leetcode-javascript/tree/master/0128-longest-consecutive-sequence) |
+| [0136-single-number](https://github.com/shirinmjr/leetcode-javascript/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shirinmjr/leetcode-javascript/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/shirinmjr/leetcode-javascript/tree/master/0217-contains-duplicate) |
@@ -183,4 +184,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0812-rotate-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/shirinmjr/leetcode-javascript/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
