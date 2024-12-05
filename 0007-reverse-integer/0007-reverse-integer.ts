@@ -6,6 +6,7 @@ function reverse(x: number): number {
     const result = isNegative ? -reversed : reversed;
 
     //check if the reversed falls outside the valid range of a 32-bit signed integer.
-    if (result < -(2 ** 31) || result > (2 ** 31)) return 0
+    //it's 31 becuase 1 bit is used for sign
+    if (result < -(2 ** 31) || result > (2 ** 31)-1) return 0
         return result;
 };
