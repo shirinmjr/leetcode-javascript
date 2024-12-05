@@ -4,7 +4,7 @@ function countPrimes(n: number): number {
     //const resultArray = Array(n).fill(true);
     isPrime[0] = false; // 0 is not a prime
     isPrime[1] = false; // 1 is not a prime
-    console.log(isPrime)
+   // console.log(isPrime)
     let count = n - 2
     for (let i = 2; i * i < n; i++) {
         if (isPrime[i]) {
