@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/shirinmjr/leetcode-javascript/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/shirinmjr/leetcode-javascript/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/shirinmjr/leetcode-javascript/tree/master/0387-first-unique-character-in-a-string) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/shirinmjr/leetcode-javascript/tree/master/0027-remove-element) |
 | [0086-partition-list](https://github.com/shirinmjr/leetcode-javascript/tree/master/0086-partition-list) |
+| [0125-valid-palindrome](https://github.com/shirinmjr/leetcode-javascript/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/shirinmjr/leetcode-javascript/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/shirinmjr/leetcode-javascript/tree/master/0283-move-zeroes) |
