@@ -5,8 +5,6 @@ function firstUniqChar(s: string): number {
         strMap.has(ch) ? strMap.set(ch, strMap.get(ch) + 1) : strMap.set(ch, 1);
         // strMap.set(ch, (strMap.get(ch) || 0) + 1);
     }
-    console.log(strMap)
-
     for (let i = 0; i < s.length; i++) {
         if (strMap.get(s[i]) === 1) return i
     }
