@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/shirinmjr/leetcode-javascript/tree/master/0204-count-primes) |
 | [0412-fizz-buzz](https://github.com/shirinmjr/leetcode-javascript/tree/master/0412-fizz-buzz) |
+| [2383-add-two-integers](https://github.com/shirinmjr/leetcode-javascript/tree/master/2383-add-two-integers) |
 ## Linked List
 |  |
 | ------- |
