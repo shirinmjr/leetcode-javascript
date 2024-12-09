@@ -17,7 +17,8 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     let carry = 0
     //which one is shorter??
     while (l1 !== null || l2 !== null || carry > 0) {
-        const val1 = l1 ? l1.val : 0 ///if one finishes before the other one we leave 0 instead
+        ///if one finishes before the other one we leave 0 instead
+        const val1 = l1 ? l1.val : 0 
         const val2 = l2 ? l2.val : 0
 
         let sum = val1 + val2 + carry
