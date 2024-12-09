@@ -18,8 +18,8 @@ function deleteNode(node: ListNode | null): void {
         return; // Can't delete if node is null or the last node
     }
     //need to find the Nth node first
-    node.val = node.next.val
-    node.next = node.next.next
+    node.val = node.next.val;
+    node.next = node.next.next;
 
 
 
