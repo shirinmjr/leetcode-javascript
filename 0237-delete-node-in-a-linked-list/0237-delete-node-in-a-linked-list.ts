@@ -20,7 +20,4 @@ function deleteNode(node: ListNode | null): void {
     //need to find the Nth node first
     node.val = node.next.val;
     node.next = node.next.next;
-
-
-
 };
