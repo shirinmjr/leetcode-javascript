@@ -23,7 +23,6 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
 
         let sum = val1 + val2 + carry
         carry = Math.floor(sum / 10)
-
         current.next = new ListNode(sum % 10)
         current = current.next
 
