@@ -14,8 +14,6 @@ function reverseList(head: ListNode | null): ListNode | null {
     let current = head;
     let prev = null
 
-
-
     while (current !== null) {
         const next = current.next; // Save the next node
         current.next = prev; // Reverse the pointer
@@ -26,7 +24,7 @@ function reverseList(head: ListNode | null): ListNode | null {
     return prev; // Return the new head (previous node)
 };
 
-/*
+/* JS
 var reverseList = function (head) {
     let prev = null;
     let next = null;
