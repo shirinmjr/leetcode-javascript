@@ -12,7 +12,7 @@
 
 function isPalindrome(head: ListNode | null): boolean {
     if (!head || !head.next) return true; // Empty or single-node list is a palindrome
-
+    
     // Step 1: Find the middle of the list
     let slow = head
     let fast = head
@@ -30,7 +30,7 @@ function isPalindrome(head: ListNode | null): boolean {
         prev = current
         current = next
     }
-
+    
     // Step 3: Compare the two halves
     let firstHalf = head;
     let secondHalf = prev; // prev is the head of the reversed second half
@@ -39,5 +39,6 @@ function isPalindrome(head: ListNode | null): boolean {
         firstHalf = firstHalf.next
         secondHalf = secondHalf.next
     }
+    
     return true
 };
