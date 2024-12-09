@@ -12,7 +12,7 @@
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
 
-    let dummyNode = new ListNode(0);
+    const dummyNode = new ListNode(0);
     let current = dummyNode;
     let carry = 0
     //which one is shorter??
