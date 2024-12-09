@@ -11,24 +11,19 @@
  */
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {
-    const mySet = new Set();
-    let current = head
-    let prev = current
+    const values = new Set();
+    let current = head;
+    let previous = null;
+
     while (current !== null) {
-        if (mySet.has(current.val)) {//it's a duplicate!
-
-            prev.next = current.next
-   
-        }else{
-        mySet.add(current.val)
-        prev = current
+        //if value exists it's a duplicate so we skip by moving precious pointer to the next of the current
+        if (values.has(current.val)) {
+            previous.next = current.next
+        } else {
+            values.add(current.val)
+            previous = current
         }
-
-
-
-
-
-        current = current.next
+        current = current.next;
     }
     return head
 };
