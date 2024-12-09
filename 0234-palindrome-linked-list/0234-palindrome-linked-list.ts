@@ -31,7 +31,7 @@ function isPalindrome(head: ListNode | null): boolean {
         current = next
     }
 
-        // Step 3: Compare the two halves
+    // Step 3: Compare the two halves
     let firstHalf = head;
     let secondHalf = prev; // prev is the head of the reversed second half
     while (secondHalf !== null) {
