@@ -35,14 +35,9 @@ function isPalindrome(head: ListNode | null): boolean {
     let firstHalf = head;
     let secondHalf = prev; // prev is the head of the reversed second half
     while (secondHalf !== null) {
-
         if (firstHalf.val !== secondHalf.val) return false;
-
         firstHalf = firstHalf.next
         secondHalf = secondHalf.next
-
     }
-
-
     return true
 };
