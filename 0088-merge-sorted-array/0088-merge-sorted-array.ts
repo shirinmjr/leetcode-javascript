@@ -17,9 +17,6 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
         }
         k--;
     }
-
-
-
     while (j >= 0) {
         nums1[k] = nums2[j];
         j--;
