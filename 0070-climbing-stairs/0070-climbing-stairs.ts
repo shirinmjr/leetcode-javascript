@@ -1,29 +1,26 @@
 function climbStairs(n: number): number {
+    if (n === 1) return 1;
+    if (n === 2) return 2;
 
-
-
-    if(n === 1) return 1;
-    if(n === 2) return 2;
-
-    let oneStepBefore = 2;
-    let twoStepsBefore = 1;
-    let allWays = 0;
+    let one = 2;
+    let two = 1;
+    let temp;
 
     // Iterate from the third step to the last step
     for (let i = 3; i <= n; i++) {
-        allWays = oneStepBefore + twoStepsBefore;  // Current step ways
-        twoStepsBefore = oneStepBefore;  // Move to next step
-        oneStepBefore = allWays;         // Move to next step
+        temp = one; // Current step ways
+        one = one + two // Move to next step
+        two = temp       // Move to next step
     }
 
-    return allWays;
-    
+    return one;
 
-   /* if(n===1) return 1
-    if (n===2) return 2
 
-    return(climbStairs(n-1) + climbStairs(n-2))
-    */
+    /* if(n===1) return 1
+     if (n===2) return 2
+ 
+     return(climbStairs(n-1) + climbStairs(n-2))
+     */
 
 
 };
