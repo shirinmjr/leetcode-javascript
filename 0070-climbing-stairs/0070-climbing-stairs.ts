@@ -1,4 +1,7 @@
 function climbStairs(n: number): number {
+        return n <= 3 
+        ? n 
+        : 2 * climbStairs(n - 2) + climbStairs(n - 3);
     if (n === 1) return 1;
     if (n === 2) return 2;
 
@@ -14,8 +17,6 @@ function climbStairs(n: number): number {
     }
 
     return one;
-
-
     /* if(n===1) return 1
      if (n===2) return 2
  
