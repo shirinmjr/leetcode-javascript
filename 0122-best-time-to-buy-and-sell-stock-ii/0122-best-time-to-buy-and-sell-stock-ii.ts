@@ -1,9 +1,14 @@
 function maxProfit(prices: number[]): number {
-    let maxProfit = 0;
-    for (let i = 0; i < prices.length - 1; i++) {
-        if (prices[i + 1] > prices[i]) {
-            maxProfit += (prices[i + 1] - prices[i]);
+    let maxProfit: number = 0
+    let prevPrice: number = prices[0]
+    for (let price of prices) {
+        if (price > prevPrice){
+        maxProfit +=  price - prevPrice
+      
         }
-    }
-    return maxProfit;
+          prevPrice=price
+}
+
+
+    return maxProfit
 };
