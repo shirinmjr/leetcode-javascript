@@ -7,11 +7,7 @@ function maxSubArray(nums: number[]): number {
 
     }
     return result
-
-
 };
-
-
 // let result = nums[0];
 // for (let i = 0; i < nums.length; i++) {
 //     let currentSum = 0;
