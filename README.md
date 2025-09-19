@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/shirinmjr/leetcode-javascript/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/shirinmjr/leetcode-javascript/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/shirinmjr/leetcode-javascript/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shirinmjr/leetcode-javascript/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/shirinmjr/leetcode-javascript/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/shirinmjr/leetcode-javascript/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/shirinmjr/leetcode-javascript/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/shirinmjr/leetcode-javascript/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/shirinmjr/leetcode-javascript/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shirinmjr/leetcode-javascript/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shirinmjr/leetcode-javascript/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
