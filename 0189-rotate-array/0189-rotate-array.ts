@@ -12,23 +12,21 @@ function rotate(nums: number[], k: number): void {
 
     function reverse(strIndex, endIndex) {
         while (endIndex > strIndex) {
-            let strVal = nums[strIndex]
-            let endVal = nums[endIndex]
-            nums[strIndex] = endVal
-            nums[endIndex] = strVal
-            strIndex++
-            endIndex--
+            let strVal = nums[strIndex];
+            let endVal = nums[endIndex];
+            nums[strIndex] = endVal;
+            nums[endIndex] = strVal;
+            strIndex++;
+            endIndex--;
         }
     }
 
-
     reverse(0, nums.length - 1)
-    console.log(nums)
+    // console.log(nums)
     reverse(0, k-1)
-    console.log(nums)
+    // console.log(nums)
     reverse(k, nums.length - 1)
-    console.log(nums)
-
+    // console.log(nums)
 
 }
 /*
