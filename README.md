@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/shirinmjr/leetcode-javascript/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/shirinmjr/leetcode-javascript/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/shirinmjr/leetcode-javascript/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/shirinmjr/leetcode-javascript/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/shirinmjr/leetcode-javascript/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/shirinmjr/leetcode-javascript/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/shirinmjr/leetcode-javascript/tree/master/0088-merge-sorted-array) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/shirinmjr/leetcode-javascript/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/shirinmjr/leetcode-javascript/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/shirinmjr/leetcode-javascript/tree/master/0054-spiral-matrix) |
 ## Union Find
 |  |
 | ------- |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/shirinmjr/leetcode-javascript/tree/master/0054-spiral-matrix) |
 | [0412-fizz-buzz](https://github.com/shirinmjr/leetcode-javascript/tree/master/0412-fizz-buzz) |
 | [2197-decode-the-slanted-ciphertext](https://github.com/shirinmjr/leetcode-javascript/tree/master/2197-decode-the-slanted-ciphertext) |
 ## Greedy
