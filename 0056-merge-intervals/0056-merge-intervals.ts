@@ -1,21 +1,18 @@
 function merge(intervals: number[][]): number[][] {
-    if (intervals.length === 0) return []
+    if (intervals.length === 0) return [];
+    let sorted: number[][] = [...intervals].sort((a, b) => a[0] - b[0]);
 
-    let sorted = [...intervals].sort((a, b) => (a[0] - b[0]))
+    let res = [];
+    res.push(sorted[0]);
+    for (let i = 1; i < sorted.length; i++) {
+        let last = sorted[i];
+        let curr = res[res.length - 1];
+        if (last[0] <= curr[1]) {
+            curr[1] = Math.max(last[1], curr[1]);
 
-    let res = []
-    res.push(sorted[0])
-    for (let i = 1; i < intervals.length; i++) {
-
-        let last = res[res.length - 1]
-        let curr = sorted[i]
-
-       if (curr[0] <= last[1]) {
-            last[1] = Math.max(last[1], curr[1]);
         } else {
-            res.push(curr);
+            res.push(last)
         }
- 
     }
     return res
 };
