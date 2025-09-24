@@ -2,7 +2,7 @@ function merge(intervals: number[][]): number[][] {
     if (intervals.length === 0) return [];
     let sorted: number[][] = [...intervals].sort((a, b) => a[0] - b[0]);
 
-    let res = [];
+    let res: number[][] = [];
     res.push(sorted[0]);
     for (let i = 1; i < sorted.length; i++) {
         let last = sorted[i];
