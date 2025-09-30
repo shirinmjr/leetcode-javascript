@@ -5,7 +5,7 @@ function maxProfit(prices: number[]): number {
         // compaire each min to min price - keep pushing to lower it
         minPrice = Math.min(minPrice, price);
         // Update maxProfit - keep pushing to get higher and higher profit
-        maxProfit = Math.max(maxProfit, price - minPrice); 
+        maxProfit = Math.max(maxProfit, price - minPrice);
     }
     return maxProfit;
 };
