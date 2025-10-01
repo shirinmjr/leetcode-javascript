@@ -8,17 +8,15 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     let k = m + n - 1
 
     while (i >= 0 && j >= 0) {
-    if (nums1[i] > nums2[j]) {
-      nums1[k--] = nums1[i--];
-    } else {
-      nums1[k--] = nums2[j--];  // covers nums1[i] <= nums2[j]
+        if (nums2[j] > nums1[i]) {
+            nums1[k--] = nums2[j--];
+        } else {
+            nums1[k--] = nums1[i--];
+        }
     }
-  }
-
-  // If nums2 still has elements, copy them (nums1's remaining are already in place)
-  while (j >= 0) {
-    nums1[k--] = nums2[j--];
-  }
+    while (j >= 0) {
+        nums1[k--] = nums2[j--]
+    }
 
 
 
