@@ -2,11 +2,37 @@
  Do not return anything, modify nums1 in-place instead.
  */
 function merge(nums1: number[], m: number, nums2: number[], n: number): void {
+    if (m === 0) nums1[0] = nums2[0]
+    let i = m - 1
+    let j = n - 1
+    let k = m + n - 1
 
-    for (let i = 0; i < n; i++) {
-        nums1[m + i] = nums2[i];
+    while (i >= 0 && j >= 0) {
+    if (nums1[i] > nums2[j]) {
+      nums1[k--] = nums1[i--];
+    } else {
+      nums1[k--] = nums2[j--];  // covers nums1[i] <= nums2[j]
     }
-    nums1.sort((a, b) => a - b);
+  }
+
+  // If nums2 still has elements, copy them (nums1's remaining are already in place)
+  while (j >= 0) {
+    nums1[k--] = nums2[j--];
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,4 +56,11 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     //         j--;
     //         k--;
     //     }
+
+
+
+    // for (let i = 0; i < n; i++) {
+    //     nums1[m + i] = nums2[i];
+    // }
+    // nums1.sort((a, b) => a - b);
 };
