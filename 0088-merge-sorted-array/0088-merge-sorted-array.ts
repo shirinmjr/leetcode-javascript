@@ -2,7 +2,6 @@
  Do not return anything, modify nums1 in-place instead.
  */
 function merge(nums1: number[], m: number, nums2: number[], n: number): void {
-    if (m === 0) nums1[0] = nums2[0]
     let i = m - 1
     let j = n - 1
     let k = m + n - 1
