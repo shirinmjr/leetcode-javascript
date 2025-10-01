@@ -4,9 +4,8 @@ function twoSum(nums: number[], target: number): number[] {
         let complement = target - nums[i]
         if (myMap.has(complement)) {//O(1)
             return [myMap.get(complement), i];
-        } else {
-            myMap.set(nums[i], i);
         }
+        myMap.set(nums[i], i);
     }
     return []
 };
