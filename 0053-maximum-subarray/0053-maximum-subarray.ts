@@ -1,11 +1,17 @@
 function maxSubArray(nums: number[]): number {
-  if (nums.length === 0) throw new Error("nums must be non-empty");
-  let maxSum = nums[0];
-  let cur = nums[0];
-  for (let i = 1; i < nums.length; i++) {
-    const x = nums[i];
-    cur = cur + x > x ? cur + x : x;   // avoids two Math.max calls
-    if (cur > maxSum) maxSum = cur;
-  }
-  return maxSum;
-}
+    if (nums.length === 1) return nums[0]
+    let curr_sum = 0;
+    let max_sum = -Infinity;
+
+    for (let i = 0; i < nums.length; i++) {
+        curr_sum = Math.max( curr_sum + nums[i],nums[i])
+        // if (curr_sum < 0) {
+        //     curr_sum = nums[i];
+        // }
+
+        if (curr_sum > max_sum) {
+            max_sum = curr_sum;
+        }
+    }
+    return max_sum;
+};
