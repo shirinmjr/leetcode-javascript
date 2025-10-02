@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/shirinmjr/leetcode-javascript/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/shirinmjr/leetcode-javascript/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/shirinmjr/leetcode-javascript/tree/master/0287-find-the-duplicate-number) |
+| [0303-range-sum-query-immutable](https://github.com/shirinmjr/leetcode-javascript/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/shirinmjr/leetcode-javascript/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/shirinmjr/leetcode-javascript/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/shirinmjr/leetcode-javascript/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/shirinmjr/leetcode-javascript/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/shirinmjr/leetcode-javascript/tree/master/0155-min-stack) |
+| [0303-range-sum-query-immutable](https://github.com/shirinmjr/leetcode-javascript/tree/master/0303-range-sum-query-immutable) |
 | [0535-encode-and-decode-tinyurl](https://github.com/shirinmjr/leetcode-javascript/tree/master/0535-encode-and-decode-tinyurl) |
 ## Doubly-Linked List
 |  |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/shirinmjr/leetcode-javascript/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/shirinmjr/leetcode-javascript/tree/master/0303-range-sum-query-immutable) |
 ## Stack
 |  |
 | ------- |
