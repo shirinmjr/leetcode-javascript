@@ -1,7 +1,6 @@
 function maxSubArray(nums: number[]): number {
     let curr_sum = 0;
     let max_sum = -Infinity;
-
     for (let i = 0; i < nums.length; i++) {
         curr_sum = Math.max(curr_sum + nums[i], nums[i]);
         if (curr_sum > max_sum) {
